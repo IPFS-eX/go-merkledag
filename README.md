@@ -4,8 +4,8 @@ go-merkledag
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
-[![Coverage Status](https://codecov.io/gh/ipfs/go-merkledag/branch/master/graph/badge.svg)](https://codecov.io/gh/ipfs/go-merkledag/branch/master)
-[![Travis CI](https://travis-ci.org/ipfs/go-merkledag.svg?branch=master)](https://travis-ci.org/ipfs/go-merkledag)
+[![Coverage Status](https://codecov.io/gh/ETHFSx/go-merkledag/branch/master/graph/badge.svg)](https://codecov.io/gh/ETHFSx/go-merkledag/branch/master)
+[![Travis CI](https://travis-ci.org/ETHFSx/go-merkledag.svg?branch=master)](https://travis-ci.org/ETHFSx/go-merkledag)
 
 > go-merkledag implements the 'DAGService' interface and adds two ipld node types, Protobuf and Raw 
 

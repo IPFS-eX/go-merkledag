@@ -5,14 +5,14 @@ import (
 	"errors"
 	"strings"
 
-	bserv "github.com/ipfs/go-blockservice"
+	bserv "github.com/ETHFSx/go-blockservice"
 	ds "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"
 	bstore "github.com/ipfs/go-ipfs-blockstore"
 	offline "github.com/ipfs/go-ipfs-exchange-offline"
 	ipld "github.com/ipfs/go-ipld-format"
 
-	dag "github.com/ipfs/go-merkledag"
+	dag "github.com/ETHFSx/go-merkledag"
 )
 
 // Editor represents a ProtoNode tree editor and provides methods to
