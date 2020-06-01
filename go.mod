@@ -1,7 +1,7 @@
-module github.com/ETHFSx/go-merkledag
+module github.com/IPFS-eX/go-merkledag
 
 require (
-	github.com/ETHFSx/go-blockservice v0.1.5-rc.1
+	github.com/IPFS-eX/go-blockservice v0.1.4-0.20200601101959-b6d7f171ebf3
 	github.com/gogo/protobuf v1.3.1
 	github.com/ipfs/go-block-format v0.0.2
 	github.com/ipfs/go-blockservice v0.1.3

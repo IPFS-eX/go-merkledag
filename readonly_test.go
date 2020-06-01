@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/ETHFSx/go-merkledag"
-	dstest "github.com/ETHFSx/go-merkledag/test"
+	. "github.com/IPFS-eX/go-merkledag"
+	dstest "github.com/IPFS-eX/go-merkledag/test"
 
 	cid "github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"

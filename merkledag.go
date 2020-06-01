@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	blocks "github.com/ipfs/go-block-format"
-	bserv "github.com/ETHFSx/go-blockservice"
+	bserv "github.com/IPFS-eX/go-blockservice"
 	cid "github.com/ipfs/go-cid"
 	ipldcbor "github.com/ipfs/go-ipld-cbor"
 	ipld "github.com/ipfs/go-ipld-format"
