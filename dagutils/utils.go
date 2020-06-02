@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	bserv "github.com/IPFS-eX/go-blockservice"
+	offline "github.com/IPFS-eX/go-ipfs-exchange-offline"
 	ds "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"
 	bstore "github.com/ipfs/go-ipfs-blockstore"
-	offline "github.com/ipfs/go-ipfs-exchange-offline"
 	ipld "github.com/ipfs/go-ipld-format"
 
 	dag "github.com/IPFS-eX/go-merkledag"
