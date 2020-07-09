@@ -9,6 +9,8 @@ import (
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
+	oLog "log"
+	"io/ioutil"
 	math "math"
 	math_bits "math/bits"
 	reflect "reflect"
@@ -159,6 +161,7 @@ func (m *PBNode) GetData() []byte {
 }
 
 func init() {
+	oLog.SetOutput(ioutil.Discard)
 	proto.RegisterType((*PBLink)(nil), "merkledag.pb.PBLink")
 	proto.RegisterType((*PBNode)(nil), "merkledag.pb.PBNode")
 }
